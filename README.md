@@ -37,6 +37,8 @@ Este experimento se prueba colocando una luz sobre una pantalla que tenga dos re
 
   ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Resultado1.jpeg)
 
+  ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Prueba.jpeg)
+
   ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Resultado2.jpeg)
 
   
