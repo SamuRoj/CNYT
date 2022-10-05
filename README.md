@@ -26,7 +26,7 @@ Este experimento se prueba colocando una luz sobre una pantalla que tenga dos re
     
   2. Realizamos dos cortes paralelos en la cartulina que usamos como pared, los cuales representan las rendijas.
       
-imagen
+  ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Cartulina.jpeg)
   
   3. Tomamos el palo de balso y realizamos una base donde se pondrá el láser.
   
