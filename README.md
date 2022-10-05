@@ -22,7 +22,7 @@ Este experimento se prueba colocando una luz sobre una pantalla que tenga dos re
       - Cartulina Negra
       - ....
 
-  ![Image text] https://github.com/SamuRoj/CNYT/blob/master/Materiales.jpeg
+  ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Materiales.jpeg)
     
   2. Realizamos dos cortes paralelos en la cartulina que usamos como pared, los cuales representan las rendijas.
       
@@ -30,16 +30,14 @@ imagen
   
   3. Tomamos el palo de balso y realizamos una base donde se pondrá el láser.
   
-  ![Image text] https://github.com/SamuRoj/CNYT/blob/master/Láser.jpeg
+  ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Láser.jpeg)
 
 
   4. Ponemos una cartulina negra como pantalla para ver el patrón obtenido y se enciende el láser para observar el resultado.
 
-imagen  
+  ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Resultado1.jpeg)
 
-  5. Como último prendemos el láser y observamos el resultado:
-
-
+  ![Image text](https://github.com/SamuRoj/CNYT/blob/master/Resultado2.jpeg)
 
   
   ### Video Doble Rendija
