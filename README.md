@@ -68,11 +68,13 @@ Descarga de los archivos LibQuantum.py, Matrix_Lib.py y Complex_Lib.py en un mis
 
 Contiene las funciones que permiten realizar la simulación de la doble rendija. Algunas de las funciones que se encuentran dentro del archivo son:
 
+```
 RoundDecimal(matrix)                    'Recibe una matriz y redondea cada uno de sus valores con 5 dígitos de precisión.'
 
 DoubleSlits(matrix, vector, slits, target, clicks)     'Recibe 5 parámetros permite simular el experimento de la doble rendija'
 
 BarGraph(vector)                        'Recibe un vector y realiza un gráfico de barras de acuerdo al estado del vector.'
+```
 
 ### Explicación de las pruebas realizadas
 
