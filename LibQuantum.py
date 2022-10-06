@@ -1,5 +1,6 @@
 import Matrix_Lib as Ml
 import Complex_Lib as Cl
+import matplotlib.pyplot as plt
 
 
 def RoundDecimal(matrix):
@@ -12,7 +13,7 @@ def RoundDecimal(matrix):
 
 
 # Múltiples rendijas cuántico
-def MultipleSlitsQuantum(matrix, vector, slits, target, clicks):
+def DoubleSlits(matrix, vector, slits, target, clicks):
     result = [[0 for _ in range(slits + target + 1)] for _ in range(slits + target + 1)]
     for i in range(len(matrix)):
         for j in range(len(matrix[0])):
@@ -29,12 +30,17 @@ def MultipleSlitsQuantum(matrix, vector, slits, target, clicks):
         result[i][0], result[i][1] = round(result[i][0], 5), round(result[i][1], 5)
     return tuple(map(tuple, result))
 
-
-def Interference(vector, quantum):
+def BarGraph(vector):
+    vector = list(map(list, vector))
     for i in range(len(vector)):
-        if vector[i][0] != quantum[i][0]:
-            return "Hay interferencia."
-    return "No hay interferencia."
+        vector[i] = vector[i][0]
+    fig, axis = plt.subplots()
+    axis.bar(range(len(vector)), vector, 0.5)
+    axis.set_title("Simulación del experimento de la doble rendija")
+    axis.set_ylabel("Probabilidad")
+    axis.set_xlabel("Posición del vector")
+    plt.show()
+
 
 # Variables a usar para las pruebas
 v1 = ((1, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0))
@@ -52,5 +58,7 @@ print("Simulación del experimento de la doble rendija")
 Ml.print_matrix(RoundDecimal(m1))
 print()
 print("Vector de probabilidades luego de la acción de la matriz")
-Ml.print_vector(MultipleSlitsQuantum(m1, v1, 2, 5, 3))
+Ml.print_vector(DoubleSlits(m1, v1, 2, 5, 3))
+print()
 print("En la posición 5 del vector se logra observar el fenómeno de interferencia.")
+BarGraph(DoubleSlits(m1, v1, 2, 5, 3))
